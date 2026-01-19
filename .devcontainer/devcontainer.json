@@ -1,0 +1,14 @@
+{
+  "name": "Course Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "editor.formatOnSave": true
+      },
+      "extensions": ["ms-python.python", "charliermarsh.ruff"]
+    }
+  },
+  "postCreateCommand": "pip install uv && uv pip install --system -r pyproject.toml && pre-commit install"
+}

@@ -1,0 +1,21 @@
+[project]
+name = "s26_rpn"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "ruff",
+    "typer",
+    "rich",
+    "pre-commit",
+    "numpy",
+    "matplotlib",
+    "pygame",
+    "scipy",
+    "casadi",
+    "cvxpy",
+]
+
+[tool.uv]
+package = false

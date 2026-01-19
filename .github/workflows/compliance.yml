@@ -1,0 +1,6 @@
+name: Compliance
+on: [push, pull_request]
+
+jobs:
+  enforce-policy:
+    uses: S26-RPN/course-infra/.github/workflows/rules.yml@main
