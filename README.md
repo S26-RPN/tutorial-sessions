@@ -5,7 +5,7 @@ This repository contains material for the tutorial sessions conducted during the
 | Tutorial Date | Topic | Instructor | Jupyter Notebook(s) | Exercise |
 | :---: | :---: | :---: | :---: | :---: |
 | 2026-01-19 | Intro to CasADi & MPC | [@reachpranjal](https://github.com/reachpranjal) | [Intro to CasADi](./tut_00_intro_to_casadi/c00_intro.ipynb)<br>[Goal Reaching as Trajectory Optimization](./tut_00_intro_to_casadi/c01_goal_reaching_trajopt.ipynb)<br>[Goal Reaching using MPC](./tut_00_intro_to_casadi/c02_goal_reaching_mpc.ipynb)<br>[Obstacle Avoidance as Hard Constraint](./tut_00_intro_to_casadi/c03_obstacle_avoidance_hard_constraint.ipynb)<br>[Obstacle Avoidance as Soft Constraint](./tut_00_intro_to_casadi/c04_obstacle_avoidance_soft_constraint.ipynb) | [Exercise Notebook](./exercises/tut_00.ipynb) |
-
+| 2026-04-06 | Sampling-based Planner: CEM | [@reachpranjal](https://github.com/reachpranjal) | [Cross-Entropy Method](./tut_01_CEM/Cross_Entropy_Method.ipynb) | N/A |
 
 ## Note
 
